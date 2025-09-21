@@ -1,0 +1,143 @@
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+  background: gainsboro;
+}
+
+header {
+    background: #b02f00;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+figure {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.4rem;
+}
+
+.logo {
+    margin: 0;
+    color: white;
+}
+
+section{
+  max-width: 1200px;
+  margin: auto;
+}
+
+section p {
+  text-align: justify;
+  font-size: 1.2rem;
+  color: darkslategray;
+}
+
+.sections {
+   max-width: 1200px;
+  margin: auto;
+}
+
+.sections img {
+  width: 100%;
+}
+
+footer {
+    background:#b02f00;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.contact {
+    max-width: 1200px;
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.map-container {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.contact .info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: darkslategray;
+}
+
+.contact .info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    border: none;
+}
+
+.product h1 {
+    text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.menu-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.menu-item h2 {
+  text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
