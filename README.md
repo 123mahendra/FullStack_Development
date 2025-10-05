@@ -1,6 +1,9 @@
-HTML & CSS Assignment
+# Assignments
+## HTML & CSS Assignment
 
-https://users.metropolia.fi/~mahendrs/HTML&CSS/home.html
+[HTML&CSS](https://users.metropolia.fi/~mahendrs/HTML&CSS/home.html)
 
-https://users.metropolia.fi/~mahendrs/HTML&CSS/results.html
+[Results](https://users.metropolia.fi/~mahendrs/HTML&CSS/results.html)
+
+## JavaScript
 
